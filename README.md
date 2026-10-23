@@ -1,17 +1,59 @@
-# informasi_negara
+# World Explorer
 
-A new Flutter project.
+## Deskripsi Aplikasi
 
-## Getting Started
+World Explorer adalah aplikasi mobile berbasis Flutter yang menampilkan informasi berbagai negara dengan memanfaatkan API countries.dev. Aplikasi ini memungkinkan pengguna melihat daftar negara dan membuka halaman detail untuk mengetahui informasi negara yang dipilih.
 
-This project is a starting point for a Flutter application.
+## Fitur Utama
 
-A few resources to get you started if this is your first Flutter project:
+- Menampilkan daftar negara dari API.
+- Menampilkan detail informasi negara.
+- Mengambil data menggunakan HTTP request.
+- Menyajikan informasi negara melalui antarmuka mobile.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Teknologi dan Package
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Flutter** — framework untuk pengembangan aplikasi mobile.
+- **Dart** — bahasa pemrograman yang digunakan.
+- **http** — package untuk melakukan HTTP request ke API.
+- **countries.dev API** — sumber data informasi negara.
+
+## Persyaratan
+
+- Flutter SDK sudah terpasang.
+- Android Studio atau editor yang mendukung Flutter.
+- Emulator Android atau perangkat Android untuk menjalankan aplikasi.
+
+## Langkah Menjalankan Aplikasi
+
+1. Clone repository:
+
+   ```bash
+   git clone https://github.com/akdzaah/UTS_MobileProgramming.git
+   ```
+
+2. Masuk ke folder proyek:
+
+   ```bash
+   cd UTS_MobileProgramming
+   ```
+
+3. Unduh dependensi:
+
+   ```bash
+   flutter pub get
+   ```
+
+4. Jalankan aplikasi:
+
+   ```bash
+   flutter run
+   ```
+
+## Repository
+
+https://github.com/akdzaah/UTS_MobileProgramming
+
+---
+
+Proyek ini dibuat untuk memenuhi tugas Ujian Tengah Semester (UTS) Pemrograman Mobile.
